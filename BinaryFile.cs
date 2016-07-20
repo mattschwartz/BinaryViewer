@@ -11,6 +11,7 @@ namespace BinaryViewer
     
     class BinaryFile
     {
+        // http://www.dbf2002.com/dbf-file-format.html
         private DisplayType _defaultType;
         private byte[] _data;
         private int _segmentSize = 16;
